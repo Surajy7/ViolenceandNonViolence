@@ -30,6 +30,7 @@ PROJECT_DIR = '../input/real-life-violence-situations-dataset'
 IMG_SIZE = 128
 ColorChannels = 3
 
+# defining the video function 
 def video_to_frames(video):
     vidcap = cv2.VideoCapture(video)
     
