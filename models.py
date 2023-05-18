@@ -20,7 +20,7 @@ def play(filename):
     return HTML(html)
 
 IMG_SIZE = 128
-
+#Defining the Fuction for video 
 def print_results(video, limit=None):
         fig=plt.figure(figsize=(16, 30))
         if not os.path.exists('output'):
