@@ -361,6 +361,7 @@ def print_results(video, limit=None):
 
                 except:
                     break 
+        # Showing the plotted graph
         
         plt.show()
         print("Cleaning up...")
