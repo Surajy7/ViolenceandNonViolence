@@ -3,7 +3,7 @@ from IPython.display import HTML
 from base64 import b64encode
 import imgaug.augmenters as iaa
 import math
-
+# installing the libraries 
 import numpy as np
 import cv2
 import os
