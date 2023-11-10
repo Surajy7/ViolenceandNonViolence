@@ -8,7 +8,7 @@ import numpy as np
 import cv2 
 import os
 from keras.models import load_model
-from collections import deque
+from collections import deque 
 from tqdm import tqdm
 from sklearn.model_selection import StratifiedShuffleSplit
 import matplotlib
